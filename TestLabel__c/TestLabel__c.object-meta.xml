@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Taşıma için gerekti :)</description>
+    <enableFeeds>false</enableFeeds>
+    <label>TestLabel</label>
+    <visibility>Public</visibility>
+</CustomObject>
