@@ -13,7 +13,7 @@ trigger AccountTrigger on Account (before insert, before update,after insert,
    System.debug('======END======')  ; 
 
 
-
+//updatre rtrg
 
 
 
