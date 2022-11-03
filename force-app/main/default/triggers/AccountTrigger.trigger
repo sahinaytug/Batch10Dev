@@ -13,8 +13,13 @@ trigger AccountTrigger on Account (before insert, before update,after insert,
    System.debug('======END======')  ; 
 
 
+<<<<<<< HEAD
 //updatre rtrg
 
+=======
+
+ //updated
+>>>>>>> feature4
 
 
   }

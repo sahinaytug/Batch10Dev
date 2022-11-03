@@ -8,6 +8,7 @@ public class AccountsBatch implements Database.Batchable<sObject>, Database.stat
         Database.QueryLocator ql = Database.getQueryLocator([select id, description from account]);
         return ql;
     }
+    //update codes
     public void execute(Database.BatchableContext bc, List<Account> scope){
         System.debug('We are in execute method NOWW');
         for (account acc : scope) {
